@@ -2859,6 +2859,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 803352830}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &573345167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 710402224207270212, guid: d4df4815805a3489a8e7338933960215,
+    type: 3}
+  m_PrefabInstance: {fileID: 1766825015034184485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &573345168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573345167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d99c400739f054d8bd2b0bff95cedb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &608614680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3392,6 +3410,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d266f56e0dad584e8095607880c0c21, type: 3}
+--- !u!114 &842039233 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114522248777406520, guid: f769e8ea55705df428ef6c53fe3c1e55,
+    type: 3}
+  m_PrefabInstance: {fileID: 1001040036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 383acbc5b0b18de468d4f872277e3632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &902142465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1766825014283639076, guid: d4df4815805a3489a8e7338933960215,
@@ -3523,6 +3553,36 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114409703878813782, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114409703878813782, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114409703878813782, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114409703878813782, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 842039233}
+    - target: {fileID: 114409703878813782, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: EnableXRPositionTracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 114409703878813782, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 114928648313651850, guid: f769e8ea55705df428ef6c53fe3c1e55,
         type: 3}
       propertyPath: targets.Array.size
@@ -3562,6 +3622,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnableXR
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 842039233}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DisableXRPositionTracking
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172388156132851343, guid: f769e8ea55705df428ef6c53fe3c1e55,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f769e8ea55705df428ef6c53fe3c1e55, type: 3}
@@ -4289,6 +4384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1389045431}
+  - component: {fileID: 1389045432}
   m_Layer: 0
   m_Name: CameraRigs
   m_TagString: Untagged
@@ -4314,6 +4410,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1389045432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389045430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d428029ad7834ac8a5e97852c238685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1458514178
 GameObject:
   m_ObjectHideFlags: 0
@@ -7482,6 +7590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482770691710982829, guid: d4df4815805a3489a8e7338933960215,
+        type: 3}
+      propertyPath: gameScene.sceneName
+      value: VRTK/Scenes/[003][Locomotion] - Teleporting
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4df4815805a3489a8e7338933960215, type: 3}

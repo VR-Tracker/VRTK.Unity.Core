@@ -14,5 +14,15 @@
         {
             XRSettings.enabled = false;
         }
+
+        public virtual void EnableXRPositionTracking()
+        {
+            InputTracking.disablePositionalTracking = true;
+        }
+
+        public virtual void DisableXRPositionTracking()
+        {
+            InputTracking.disablePositionalTracking = false;
+        }
     }
 }

@@ -8,7 +8,7 @@
     /// </summary>
     public class VRTrackerButtonAction : BooleanAction
     {
-        public enum ButtonType {Trigger, Grip, A, B, X, Y, Joystick};
+        public enum ButtonType {Trigger, Grab, A, B, X, Y, Joystick};
 
         public VRTracker.Manager.VRT_Tag.TagType controllerType;
         public ButtonType buttonType;
@@ -18,12 +18,23 @@
 
 		private void Start()
 		{
-			
+            tag = VRTracker.Manager.VRT_Manager.Instance.GetTag(controllerType);
 		}
 
 		protected virtual void Update()
         {
-         //   Receive(Input.GetKey(keyCode));
+            if(tag == null)
+            {
+                tag = VRTracker.Manager.VRT_Manager.Instance.GetTag(controllerType);
+                if (tag == null)
+                    return; // Could'nt access the controller 
+            }
+
+            if(buttonType == ButtonType.Trigger)
+                Receive(tag.trigger);
+
+            else if (buttonType == ButtonType.Grab)
+                Receive(tag.grab);
         }
     }
 }
