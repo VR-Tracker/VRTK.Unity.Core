@@ -1359,6 +1359,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4804fd2fe01d94bf283ae3102e54a96a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &29463070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 777167717772266069, guid: a183749a88835497dadafac189cb1cb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 29463066}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &29472705
 GameObject:
   m_ObjectHideFlags: 0
@@ -27549,6 +27555,7 @@ GameObject:
   - component: {fileID: 703599363}
   - component: {fileID: 703599366}
   - component: {fileID: 703599365}
+  - component: {fileID: 703599367}
   - component: {fileID: 703599364}
   m_Layer: 0
   m_Name: UnityInputActions
@@ -27588,6 +27595,7 @@ MonoBehaviour:
   associations:
   - {fileID: 703599366}
   - {fileID: 703599365}
+  - {fileID: 703599367}
 --- !u!114 &703599365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27620,6 +27628,22 @@ MonoBehaviour:
   - {fileID: 1711287183}
   - {fileID: 293406480}
   xrDeviceNamePattern: Oculus
+--- !u!114 &703599367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703599362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09ad384763386444b3a9b9bad3d80ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjects:
+  - {fileID: 29463070}
+  - {fileID: 1042416427}
+  xrDeviceNamePattern: VRTracker
 --- !u!1 &703793828
 GameObject:
   m_ObjectHideFlags: 0
@@ -39746,6 +39770,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4804fd2fe01d94bf283ae3102e54a96a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1042416427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6267857441063700225, guid: 34b21ae601b9443589a93a130601829c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1042416423}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1043392454
 GameObject:
   m_ObjectHideFlags: 0
