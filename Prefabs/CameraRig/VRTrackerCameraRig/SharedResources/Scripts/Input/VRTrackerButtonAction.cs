@@ -21,12 +21,25 @@
             if (tracker != null)
             {
                 if (buttonType == ButtonType.Trigger)
-                {
                     Receive(tracker.trigger);
-                }
 
                 else if (buttonType == ButtonType.Grab)
                     Receive(tracker.grab);
+
+                else if (buttonType == ButtonType.A)
+                    Receive(tracker.a);
+
+                else if (buttonType == ButtonType.B)
+                    Receive(tracker.b);
+
+                else if (buttonType == ButtonType.X)
+                    Receive(tracker.x);
+
+                else if (buttonType == ButtonType.Y)
+                    Receive(tracker.y);
+
+                else if (buttonType == ButtonType.Joystick)
+                    Receive(tracker.joystick);
             }
         }
     }
