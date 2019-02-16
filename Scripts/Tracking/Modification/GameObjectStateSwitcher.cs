@@ -32,7 +32,7 @@
         /// <summary>
         /// The current active index in the targets collection.
         /// </summary>
-        protected int activeIndex = 0;
+        public int activeIndex = 0;
 
         /// <summary>
         /// Switches to the next target in the collection and sets to the appropriate state.
